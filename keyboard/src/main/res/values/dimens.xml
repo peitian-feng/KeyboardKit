@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- xml/keyboard -->
+    <dimen name="keyboard_horizontal_gap">4dp</dimen>
+    <dimen name="keyboard_vertical_gap">4dp</dimen>
+    <dimen name="keyboard_key_width">36dp</dimen>
+    <dimen name="keyboard_key_height">36dp</dimen>
+    <dimen name="keyboard_key_backspace_width">50dp</dimen>
+    <dimen name="keyboard_left_margin">20dp</dimen>
+    <dimen name="keyboard_key_enter_width">72dp</dimen>
+    <dimen name="keyboard_key_space_width">166dp</dimen>
+    <!-- xml/keyboard_zhuyin -->
+    <dimen name="keyboard_key_zhuyin_space_width">50dp</dimen>
+    <dimen name="keyboard_key_zhuyin_space_height">70dp</dimen>
+    <dimen name="keyboard_key_zhuyin_enter_width">74dp</dimen>
+
+</resources>

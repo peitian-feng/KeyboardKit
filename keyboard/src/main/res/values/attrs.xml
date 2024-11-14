@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- {Copied from com.android.internal.R} -->
+    <declare-styleable name="Keyboard">
+        <!-- Default width of a key, in pixels or percentage of display width.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyWidth" format="dimension|fraction" />
+        <!-- Default height of a key, in pixels or percentage of display width.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyHeight" format="dimension|fraction" />
+        <!-- Default horizontal gap between keys.
+             {Copied from com.android.internal.R} -->
+        <attr name="horizontalGap" format="dimension|fraction" />
+        <!-- Default vertical gap between rows of keys.
+             {Copied from com.android.internal.R} -->
+        <attr name="verticalGap" format="dimension|fraction" />
+    </declare-styleable>
+    <!-- {Copied from com.android.internal.R} -->
+    <declare-styleable name="Keyboard_Row">
+        <!-- Row edge flags.
+             {Copied from com.android.internal.R} -->
+        <attr name="rowEdgeFlags">
+            <!-- Row is anchored to the top of the keyboard.
+             {Copied from com.android.internal.R} -->
+            <flag name="top" value="4" />
+            <!-- Row is anchored to the bottom of the keyboard.
+             {Copied from com.android.internal.R} -->
+            <flag name="bottom" value="8" />
+        </attr>
+        <!-- Mode of the keyboard. If the mode doesn't match the
+             requested keyboard mode, the row will be skipped.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyboardMode" format="reference" />
+    </declare-styleable>
+    <!-- {Copied from com.android.internal.R} -->
+    <declare-styleable name="Keyboard_Key">
+        <!-- The unicode value or comma-separated values that this key outputs.
+             {Copied from com.android.internal.R} -->
+        <attr name="codes" format="integer|string" />
+        <!-- The XML keyboard layout of any popup keyboard.
+             {Copied from com.android.internal.R} -->
+        <attr name="popupKeyboard" format="reference" />
+        <!-- The characters to display in the popup keyboard.
+             {Copied from com.android.internal.R} -->
+        <attr name="popupCharacters" format="string" />
+        <!-- Key edge flags.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyEdgeFlags">
+            <!-- Key is anchored to the left of the keyboard.
+                 {Copied from com.android.internal.R} -->
+            <flag name="left" value="1" />
+            <!-- Key is anchored to the right of the keyboard.
+                 {Copied from com.android.internal.R} -->
+            <flag name="right" value="2" />
+        </attr>
+        <!-- Whether this is a modifier key such as Alt or Shift.
+             {Copied from com.android.internal.R} -->
+        <attr name="isModifier" format="boolean" />
+        <!-- Whether this is a toggle key.
+             {Copied from com.android.internal.R} -->
+        <attr name="isSticky" format="boolean" />
+        <!-- Whether long-pressing on this key will make it repeat.
+             {Copied from com.android.internal.R} -->
+        <attr name="isRepeatable" format="boolean" />
+        <!-- The icon to show in the popup preview.
+             {Copied from com.android.internal.R} -->
+        <attr name="iconPreview" format="reference" />
+        <!-- The string of characters to output when this key is pressed.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyOutputText" format="string" />
+        <!-- The label to display on the key.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyLabel" format="string" />
+        <!-- The icon to display on the key instead of the label.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyIcon" format="reference" />
+        <!-- Mode of the keyboard. If the mode doesn't match the
+             requested keyboard mode, the key will be skipped.
+             {Copied from com.android.internal.R} -->
+        <attr name="keyboardMode" />
+    </declare-styleable>
+    <!-- {Copied from com.android.internal.R} -->
+    <declare-styleable name="KeyboardView">
+        <attr name="keyBackground" format="reference"/>
+        <attr name="keyTextColor" format="color"/>
+        <attr name="keyTextSize" format="dimension"/>
+        <attr name="labelTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
